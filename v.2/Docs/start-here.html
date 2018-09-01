@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>index</title>
+		<link href="assets/style.css" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" type="text/javascript"></script>
+		<link href="assets/prism/prism.css" rel="stylesheet">
+		<script src="assets/prism/prism.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<header>
+				<img src="assets/img/logo.png" alt="" >
+				<div class="btn-wrap">
+					<a href="mailto:help.goldentemp@gmail.com">Support</a>
+					<a href="http://goldentemp.com/temp/bcoin/web">Demo</a>
+					<a href="#">Buy now</a>
+				</div>
+			</header>
+
+			<div id="content">
+
+				<nav>
+					<div>
+						<a href="#welcome">Welcome</a>
+						<a href="#installation">Installing Theme</a>
+						<a href="#html">HTML Structure</a>
+						<a href="#css">CSS Structure</a>
+						<a href="#javascript">Javascript Settings</a>
+						<a href="#scs">Smart CSS System</a>
+						<a href="#credits">Sources & Credits</a>
+					</div>
+				</nav>
+
+				<div class="main">
+
+
+					<!--
+						Welcome
+					-->
+					<div id="welcome">
+						<h1>Welcome To Bcoin Template Documentation</h1>
+						<p>
+							Created: 15/1/2018   -   By:    -   <a href="mailto:help.goldentemp@gmail.com" class="marker">Contact Us</a>
+						</p>
+						<p>
+							Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to create a support thread on our support forum.. Thanks so much!
+						</p>
+					</div>
+					<hr>
+
+
+
+					<!--
+						Installation
+					-->
+					<div id="installation">
+						<h1>Installing The Template</h1>
+						<ol>
+							<li>
+								After unzip Theme Files, you will found <span class="marker">HTML</span> Folder all files inside you will upload them to your site.
+							</li>
+							<li>
+								You can view this Theme in any web browser from your desktop computer. Because the files are written in HTML, you do not need an internet connection in order to display or edit the Theme.
+							</li>
+							<li>
+								Start your FTP client (I persoanlly use Filezila which is free) and login. Login to your server. You will need your server name (often times this will be your domain name), username, and password that you setup with the hosting company.
+							</li>
+							<li>
+								Locate the domain folder you wish to upload your Theme files to on your server. You are going to want to click and drag every file that you have labeled <span class="marker">.html, assets</span> folder into your FTP client.
+							</li>
+							<li>
+								 Once the files are done uploading, rename the file you want to be your home page as 'index.html'.
+							</li>
+						</ol>
+					</div>
+					<hr>
+
+
+
+					<!--
+						HTML Structure
+					-->
+					<div id="html">
+						<h1>HTML Structure</h1>
+						<p>
+							This template created by latest web techniques (Bootstrap 4, SASS, Gruntjs) with many custom free commertial use scripts that are listed in credits section.
+						</p>
+						<p>
+							Every part of codes commented to make it easy to follow and customize, with unlimited layouts options.
+						</p>
+						<p><strong>Example for page layout :</strong></p>
+<pre><code class="language-markup">
+&lt;body&gt;
+
+	&lt;header&gt;
+		&lt;!--HEADER CODES HERE--&gt;
+	&lt;/header&gt;
+
+	&lt;section&gt;
+		&lt;!--SECTION CODES HERE--&gt;
+	&lt;/section&gt;
+	
+	&lt;section&gt;
+		&lt;!--SECTION CODES HERE--&gt;
+	&lt;/section&gt;
+
+	&lt;footer&gt;
+		&lt;!--FOOTER CODES HERE--&gt;
+	&lt;/footer&gt;
+
+&lt;/body&gt;
+
+</code></pre>
+					</div>
+					<hr>
+
+
+
+					<!--
+						CSS Structure
+					-->
+					<div id="css">
+						<h1>CSS Structure</h1>
+						<p>
+							This template powered by sass, it consists of many <span class="marker">.scss</span> files that compiled and called from 1 file called <span class="marker">import</span> so all these files will be called from one file for fast page loading but in fact you can manage or edit them separately.
+						</p>
+						<p>
+							You can find all scss files inside this path <strong>assets/scss</strong>
+						</p>
+						<p><strong>Check import.scss :</strong></p>
+<pre><code class="language-css">
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700');
+
+/* Bootstrap */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+/* Animate css */
+@import "../node_modules/animate.css/animate.min.css";
+
+/* Fontawsome */
+@import "../node_modules/font-awesome/scss/font-awesome";
+
+/* Owl slider */
+@import "../node_modules/owl.carousel/dist/assets/owl.carousel.min.css";
+
+/* Magnific popup */
+@import "../node_modules/magnific-popup/dist/magnific-popup.css";
+
+/* Countimator wheel */
+@import "../js/plugins/countimator/css/jquery.countimator.wheel.min.css";
+
+/* Elements */
+@import "variables";
+@import "style";
+@import "form";
+@import "header";
+@import "menu";
+@import "menu-canvas";
+@import "slider";
+@import "heading";
+@import "button";
+@import "footer";
+@import "page-title";
+@import "counter";
+@import "progress";
+@import "portfolio";
+@import "pagination";
+@import "scs";
+@import "scs_responsive";
+/* Responsive options (should be at bottom) */
+@import "responsive-lg";
+@import "responsive-md";
+@import "responsive-sm";
+
+</code></pre>
+					</div>
+					<hr>
+
+
+
+					<!--
+						Javascript setting
+					-->
+					<div id="javascript">
+						<h1>Javascript Settings</h1>
+						<p>
+							All scripts files sorted before the end of body tag you can check all of here :
+						</p>
+<pre><code class="language-markup">
+&lt;!-- Jquery | Popper | Bootstrap --&gt;
+&lt;script src="assets/node_modules/jquery/dist/jquery.slim.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/node_modules/popper.js/dist/umd/popper.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/node_modules/bootstrap/dist/js/bootstrap.min.js"&gt;&lt;/script&gt;
+&lt;!-- Wow js --&gt;
+&lt;script src="assets/node_modules/wow.js/dist/wow.min.js"&gt;&lt;/script&gt;
+&lt;!-- Owl slider --&gt;
+&lt;script src="assets/node_modules/owl.carousel/dist/owl.carousel.min.js"&gt;&lt;/script&gt;
+&lt;!-- Mouse wheel plugin - for owl carousel --&gt;
+&lt;script src="assets/node_modules/jquery-mousewheel/jquery.mousewheel.js"&gt;&lt;/script&gt;
+&lt;!-- Magnific popup --&gt;
+&lt;script src="assets/node_modules/magnific-popup/dist/jquery.magnific-popup.min.js"&gt;&lt;/script&gt;
+&lt;!-- Counters | Wheels --&gt;
+&lt;script src="assets/js/plugins/countimator/js/countimator.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/plugins/countimator/js/countimator.wheel.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/node_modules/handlebars/dist/handlebars.min.js"&gt;&lt;/script&gt;
+&lt;!-- Isotop layout --&gt;
+&lt;script src="assets/node_modules/isotope-layout/dist/isotope.pkgd.min.js"&gt;&lt;/script&gt;
+&lt;script src="assets/node_modules/imagesloaded/imagesloaded.pkgd.min.js"&gt;&lt;/script&gt;
+&lt;!-- Custom js options --&gt;
+&lt;script src="assets/js/custom.min.js"&gt;&lt;/script&gt;
+
+</code></pre>
+				<p><strong>Also you can change the settings of them from <span style="color: red">assets/js/scripts.js</span></strong></p>
+					</div>
+					<hr>
+
+
+
+					<!--
+						SCS
+					-->
+					<div id="scs">
+						<h1>Smart CSS System</h1>
+						<p>
+							We want to make everything easy for you specially when you work in our template so we created hundreds of classes names that complete the classes of bootstrap, so you can create any design without writing any CSS codes, so make sure to check our SCS through this path : <strong style="color: red">assets/scss/_scs.scss</strong>
+						</p>
+					</div>
+					<hr>
+
+
+					<!--
+						Sources and Credits
+					-->
+					<div id="credits">
+						<h1>Sources and credits</h1>
+						<p>All images in online demo are included inside downloaded package</p>
+						<ul>
+							<li><a target="_blank" class="marker" href="https://unsplash.com/">Images</a></li>
+							<li><a target="_blank" class="marker" href="https://jquery.com/download/">JQUERY</a></li>
+							<li><a target="_blank" class="marker" href="https://getbootstrap.com/">Bootstrap</a></li>
+							<li><a target="_blank" class="marker" href="http://fontawesome.io/">Font awesome icons</a></li>
+							<li><a target="_blank" class="marker" href="http://benignware.github.io/jquery-countimator/">Counters</a></li>
+							<li><a target="_blank" class="marker" href="https://owlcarousel2.github.io/OwlCarousel2/">Owl carousel</a></li>
+						</ul>
+					</div>
+					<hr>
+
+
+				</div><!--/main-->
+
+			</div><!--/content-->
+
+			<footer>
+			</footer>
+
+		</div><!--/container-->
+	</body>
+
+</html>
