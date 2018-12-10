@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75b19f9b-3fdf-4dc6-9200-35fde172c10b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/html/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,13 +37,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1532" />
+          <entry key="html" value="1815" />
           <entry key="js" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1532" />
+          <entry key="HTML" value="1815" />
           <entry key="JavaScript" value="30" />
         </counts>
       </usages-collector>
@@ -72,8 +71,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="332" column="22" lean-forward="true" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
+            <state relative-caret-position="806">
+              <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#article#3;n#div#0;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -124,7 +123,7 @@
       <path value="$PROJECT_DIR$/www/html/assets/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="-1" />
     <option name="width" value="961" />
     <option name="height" value="1053" />
@@ -219,7 +218,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544411497096" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544413555922" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -250,15 +249,15 @@
       <workItem from="1538220735896" duration="4332000" />
       <workItem from="1540570451087" duration="600000" />
       <workItem from="1544281117780" duration="4403000" />
-      <workItem from="1544356178250" duration="12146000" />
+      <workItem from="1544356178250" duration="14095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21481000" />
+    <option name="totallyTimeSpent" value="23430000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <frame x="-1" y="0" width="961" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.16008538" />
@@ -335,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="332" column="22" lean-forward="true" selection-start-line="332" selection-start-column="22" selection-end-line="332" selection-end-column="22" />
+        <state relative-caret-position="806">
+          <caret line="322" column="21" selection-start-line="322" selection-start-column="21" selection-end-line="322" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#article#3;n#div#0;n#div#0;n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
